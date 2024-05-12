@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const Header = () => {
@@ -26,46 +27,60 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52 text-red-400  "
             >
-              <li className="text-white">
-                <a>Dashboard </a>
-              </li>
-              <li className="text-white">
-                <a>Master</a>
-              </li>
-              <li className="text-white">
-                <a>Price</a>
-              </li>
-              <li className="text-white">
-                <a>Calendar</a>
-              </li>
-              <li className="text-white">
-                <a>Price</a>
-              </li>
-              <li className="text-white">
-                <a>Reports</a>
-              </li>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Dashboard </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Master </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Price </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Calendar </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Reports </a>
+                </li>
+              </NavLink>
             </ul>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li className="text-white">
-                <a>Dashboard </a>
-              </li>
-              <li className="text-white">
-                <a>Master</a>
-              </li>
-              <li className="text-white">
-                <a className="text-white">Price</a>
-              </li>
-              <li className="text-white">
-                <a>Calendar</a>
-              </li>
-              <li className="text-white">
-                <a>Price</a>
-              </li>
-              <li className="text-white">
-                <a>Reports</a>
-              </li>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Dashboard </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Master </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Price </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Calendar </a>
+                </li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li className="text-white">
+                  <a>Reports </a>
+                </li>
+              </NavLink>
             </ul>
           </div>
         </div>
