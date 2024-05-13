@@ -16,7 +16,7 @@ plugins: [
   ],
 
 
-  Live Url: https://66410a18683dc40117e7625c--eloquent-khapse-c7b6f8.netlify.app/# travel-assignment
+  Live Url: https://6641bd8e3c60a27ab04bd1ed--eloquent-khapse-c7b6f8.netlify.app/ travel-assignment
 
 
 live site: https://shuttlebd.com/ and most of them are dashboard task. so i am unable to share the url.
